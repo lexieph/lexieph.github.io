@@ -5,6 +5,8 @@ date: 2020-03-02
 ---
 ![]({{"/assets/An Overview of Property Regimes in Marriages Small.jpg"|absolute_url}})
 
+You can download the PDF [here]({{ site.url }}/assets/pdf/02_D_02-DOLE DO 107-10.pdf).
+
 RULE 1: GENERAL PROVISIONS
 SECTION 1. Title of the Rules.— These. Rules shall be known and cited as the Rules of Court. (1)
 SEC. 2. In what courts applicable. — These Rules shall apply in all the courts, except as otherwise provided by the Supreme Court. (n)
