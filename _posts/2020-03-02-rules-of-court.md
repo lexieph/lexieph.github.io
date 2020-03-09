@@ -9,6 +9,8 @@ You can download the PDF [here]({{ site.url }}/assets/pdf/02_D_02-DOLE DO 107-10
 
 https://www.lucidchart.com/documents/view/8c90ad4b-3a28-4085-9706-5d06b763be27
 
+TEST.
+
 
 RULE 1: GENERAL PROVISIONS
 SECTION 1. Title of the Rules.— These. Rules shall be known and cited as the Rules of Court. (1)
