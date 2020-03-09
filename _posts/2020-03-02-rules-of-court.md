@@ -7,7 +7,7 @@ date: 2020-03-02
 
 You can download the PDF [here]({{ site.url }}/assets/pdf/02_D_02-DOLE DO 107-10.pdf).
 
-https://www.lucidchart.com/documents/view/8c90ad4b-3a28-4085-9706-5d06b763be27
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/8c90ad4b-3a28-4085-9706-5d06b763be27" id="Xk2EIgvI6z9l"></iframe></div>
 
 TEST.
 
