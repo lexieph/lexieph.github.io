@@ -3,7 +3,7 @@ layout: post
 title: "Rules of Court"
 date: 2020-03-02
 ---
-![]({{"/assets/An Overview of Property Regimes in Marriages Small.jpg}})
+![]({{"/assets/An Overview of Property Regimes in Marriages Small.jpg"|absolute_url}})
 
 RULE 1: GENERAL PROVISIONS
 SECTION 1. Title of the Rules.— These. Rules shall be known and cited as the Rules of Court. (1)
