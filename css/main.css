@@ -63,10 +63,6 @@ body {
     z-index: 1;
 }
 
-.container {
-    /*margin-top: 30px;*/
-}
-
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
