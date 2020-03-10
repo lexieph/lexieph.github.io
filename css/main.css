@@ -47,6 +47,7 @@ table {
 /* site CSS starts here */
 
 body {
+    padding-top: 30px;
     width: 100%;
 }
 
