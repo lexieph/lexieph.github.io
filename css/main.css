@@ -55,7 +55,9 @@ body {
     opacity: 0.5;
     position: fixed;
     width: 100%;
-    overflow: hidden;
+}
+
+.container {
 }
 
 nav ul, footer ul {
