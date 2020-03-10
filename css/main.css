@@ -50,7 +50,7 @@ body {
     width: 100%;
 }
 
-header {
+.navbar {
     background-color: #4E4E50;
     opacity: 0.5;
     position: fixed;
