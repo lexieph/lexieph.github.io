@@ -1,5 +1,5 @@
 /* CSS Reset from meyerweb.com */
-html, body, div, span, applet, object, iframe,
+html, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -25,8 +25,12 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    padding-top: 60px;
     line-height: 1;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 ol, ul {
     list-style: none;
@@ -48,7 +52,7 @@ table {
 /* site CSS starts here */
 
 body {
-    width: 100%;
+    padding: 60px;
 }
 
 header {
