@@ -7,7 +7,9 @@ body {
 
     background-color: #4E4E50;
     opacity: 0.5;
-    font-color: #FDFEFE;
+    position: fixed;
+    width: 100%;
+
 }
 
 nav ul, footer ul {
