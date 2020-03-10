@@ -51,6 +51,8 @@ body {
 }
 
 .navbar {
+    margin: 0 auto;
+    padding: 0;
     overflow: hidden;
     background-color: #4E4E50;
     opacity: 0.5;
