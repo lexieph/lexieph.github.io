@@ -47,14 +47,13 @@ table {
 /* site CSS starts here */
 
 body {
-   /* padding-top: 3%;*/
     width: 100%;
     display: block;
     overflow-x: hidden;
 }
 
 .container{
-    
+    margin-top: .5rem;
 }
 
 .navbar {
