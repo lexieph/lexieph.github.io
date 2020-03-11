@@ -5,30 +5,26 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
-	<div class="app">
+	<div class="navbar">
+		<nav>
+			<ul>
+	    		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+	    		<li><a href="/cv">CV</a></li>
+	    		<li><a href="/blog">Blog</a></li>
+	    		<li><a href="/laws">Laws</a></li>
+			</ul>
+		</nav>
+	</div>
 
-		<div class="navbar">
-			<nav>
-				<ul>
-		    		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-		    		<li><a href="/cv">CV</a></li>
-		    		<li><a href="/blog">Blog</a></li>
-		    		<li><a href="/laws">Laws</a></li>
-				</ul>
-			</nav>
+	<div class ="container">
+
+		<div class ="post_toc">
+			{{ page.content }}
 		</div>
 
-		<div class ="app_body">
-
-			<div class ="app_toc">
-				{{ page.content }}
-			</div>
-
-			<div class ="app_content">
-				{{ page.content }}
-			</div>
-
+		<div class ="post_content">
+			{{ page.content }}
 		</div>
 
 	</div>

@@ -50,6 +50,7 @@ body {
     padding-top: 3%;
     width: 100%;
     display: block;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -65,28 +66,40 @@ body {
     z-index: 1;
 }
 
-.app {
+/*.app {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
+}*/
 
-.app_body {
+.container {
     display: flex;
-    flex: 1 1 100%;
-    min-height: 0;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    margin-bottom: 100px;
     position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
 }
 
-.app_toc {
-    width: 20%;
-    flex: 0 0 auto;
-    border-right: 2px solid #4E4E50;
+.post_toc,
+.post_content {
+    overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.post_toc {
+    width: 12.5rem;
 
 }
 
-.app_content {
-    
+.post_content {
+    flex: 1;
 }
 
 nav ul, footer ul {
