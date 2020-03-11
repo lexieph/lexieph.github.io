@@ -47,7 +47,7 @@ table {
 /* site CSS starts here */
 
 body {
-    padding-top: 3%;
+   /* padding-top: 3%;*/
     width: 100%;
     display: block;
     overflow-x: hidden;
@@ -66,18 +66,11 @@ body {
     z-index: 1;
 }
 
-/*.app {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}*/
-
-.container {
+.post_wrapper {
     display: flex;
     overflow: hidden;
     height: 100vh;
-    margin-top: -100px;
-    margin-bottom: 100px;
+    margin-top: .5rem;
     position: relative;
     width: 100%;
     backface-visibility: hidden;
@@ -89,8 +82,7 @@ body {
     overflow: auto;
     height: auto;
     padding: .5rem;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
+    overscroll-behavior: none;
 }
 
 .post_toc {
