@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Sample Post 1
-date: 2020-03-09
+layout: post2
+title: Testing Out Layout v2
+date: 2020-03-11
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a malesuada felis, elementum vehicula quam. Aenean ut ante blandit, laoreet enim a, ornare nunc. Praesent vel viverra mauris. Curabitur porttitor interdum finibus. Maecenas nec posuere tortor. Cras lacus mauris, pharetra laoreet dolor in, feugiat volutpat nisi. Vestibulum imperdiet, metus sed pellentesque dictum, dolor tellus interdum sem, nec efficitur massa lorem et libero. Suspendisse sodales sollicitudin posuere.

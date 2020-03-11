@@ -64,6 +64,12 @@ body {
     z-index: 1;
 }
 
+.app {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
