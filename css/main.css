@@ -70,6 +70,21 @@ body {
     overflow: hidden;
 }
 
+.app_body {
+    display: flex;
+    flex: 1 1 100%;
+    min-height: 0;
+    position: relative;
+}
+
+.app_toc {
+    background-color: #6F2232;
+}
+
+.app_content {
+    background-color: #950740;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>{{ page.title }}</title>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
 <body>
 	<div class="app">
+
 		<div class="navbar">
 			<nav>
 				<ul>
@@ -17,6 +18,18 @@
 				</ul>
 			</nav>
 		</div>
+
+		<div class ="app_body">
+
+			<div class ="app_toc">
+			</div>
+
+			<div class ="app_content">
+				{{ page.content }}
+			</div>
+
+		</div>
+
 	</div>
 </body>
 </html>
