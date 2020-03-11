@@ -47,7 +47,7 @@ table {
 /* site CSS starts here */
 
 body {
-    /*padding-top: 30px;*/
+    padding-top: 2%;
     width: 100%;
     display: block;
 }
@@ -61,6 +61,7 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
+    height: 2%;
     z-index: 1;
 }
 
@@ -78,11 +79,14 @@ body {
 }
 
 .app_toc {
-    background-color: #6F2232;
+    width: 20%;
+    flex: 0 0 auto;
+    border-right: 2px solid #4E4E50;
+
 }
 
 .app_content {
-    background-color: #950740;
+    
 }
 
 nav ul, footer ul {
