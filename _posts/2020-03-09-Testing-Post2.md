@@ -3,8 +3,16 @@ layout: post2
 title: Testing Out Layout v2
 date: 2020-03-11
 ---
+{% capture toc %}
+
+I'M THE TABLE OF CONTENTS
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a malesuada felis, elementum vehicula quam. Aenean ut ante blandit, laoreet enim a, ornare nunc. Praesent vel viverra mauris. Curabitur porttitor interdum finibus. Maecenas nec posuere tortor. Cras lacus mauris, pharetra laoreet dolor in, feugiat volutpat nisi. Vestibulum imperdiet, metus sed pellentesque dictum, dolor tellus interdum sem, nec efficitur massa lorem et libero. Suspendisse sodales sollicitudin posuere.
+
+{% endcapture %}
+
+
+{% capture actual_content %}
 
 Nulla facilisi. Maecenas non ultrices sapien. Vivamus interdum mi id urna tempus, nec mattis ligula consequat. Maecenas commodo tellus quis aliquam placerat. Donec molestie bibendum dolor, at lobortis neque placerat at. Nulla quis consectetur neque. Aenean tellus est, imperdiet ut condimentum vel, eleifend vitae mauris. Nulla vitae vehicula tellus, eget egestas ante. Vestibulum gravida neque eget lacus fringilla consectetur. Cras blandit quis urna quis imperdiet. Vivamus ipsum odio, hendrerit sit amet elit ut, vulputate viverra urna. Praesent vulputate nibh id iaculis rutrum. Duis sed lacinia nisi. Nam elit neque, auctor quis pharetra aliquet, pretium ac nibh.
 
@@ -23,3 +31,5 @@ Duis condimentum consequat odio. Sed a bibendum nibh, eu lacinia ex. Vivamus com
 Nunc ipsum dui, aliquam non arcu nec, convallis luctus odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut convallis ante. Fusce purus turpis, eleifend ut ullamcorper in, tristique nec enim. Nunc viverra lacus nec aliquam porttitor. Morbi nec sagittis libero. Duis iaculis scelerisque aliquam. Fusce ligula arcu, malesuada ut ullamcorper mattis, lobortis in urna. Curabitur sed sapien justo. Sed facilisis rutrum dignissim. Aenean eleifend dolor at tortor malesuada fringilla. Sed a rhoncus nulla, sit amet finibus erat. Sed nec condimentum mauris, eget venenatis augue. Nulla quam nibh, eleifend at porttitor eget, maximus vitae justo. Donec a tristique erat, ut aliquam eros.
 
 Morbi ut aliquet nulla. In vehicula erat maximus, suscipit augue sit amet, tincidunt turpis. In euismod sollicitudin porttitor. Praesent volutpat quis est vitae placerat. Phasellus posuere fermentum nulla, sit amet finibus nibh elementum sit amet. Donec vel facilisis massa. Aenean efficitur urna vitae nisi pellentesque, nec fermentum quam dictum. Etiam eu commodo lorem. Praesent quis lectus vitae mi ultrices bibendum convallis a eros. Integer viverra lorem eu orci tempor faucibus. Nunc fermentum mi sit amet porttitor dictum. Proin interdum eros quis ultricies faucibus. Morbi consectetur felis vel euismod luctus. Integer varius ipsum quis ornare tempus. Vivamus quis gravida lacus. Cras suscipit suscipit accumsan.
+
+{% endcapture %}
