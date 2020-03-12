@@ -1,5 +1,5 @@
 ---
-layout: post2
+layout: default2
 title: Testing Post 2
 date: 2020-03-11
 ---
@@ -33,3 +33,5 @@ Nunc ipsum dui, aliquam non arcu nec, convallis luctus odio. Pellentesque habita
 Morbi ut aliquet nulla. In vehicula erat maximus, suscipit augue sit amet, tincidunt turpis. In euismod sollicitudin porttitor. Praesent volutpat quis est vitae placerat. Phasellus posuere fermentum nulla, sit amet finibus nibh elementum sit amet. Donec vel facilisis massa. Aenean efficitur urna vitae nisi pellentesque, nec fermentum quam dictum. Etiam eu commodo lorem. Praesent quis lectus vitae mi ultrices bibendum convallis a eros. Integer viverra lorem eu orci tempor faucibus. Nunc fermentum mi sit amet porttitor dictum. Proin interdum eros quis ultricies faucibus. Morbi consectetur felis vel euismod luctus. Integer varius ipsum quis ornare tempus. Vivamus quis gravida lacus. Cras suscipit suscipit accumsan.
 
 {% endcapture %}
+
+{% include post2.html%}
