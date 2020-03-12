@@ -1,5 +1,5 @@
 ---
-layout: post2
+layout: default2
 title: Testing Post 2
 date: 2020-03-11
 ---
