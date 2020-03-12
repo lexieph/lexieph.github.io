@@ -1,6 +1,6 @@
 ---
 layout: post2
-title: Testing Out Layout v2
+title: Testing Post 2
 date: 2020-03-11
 ---
 {% capture toc %}
