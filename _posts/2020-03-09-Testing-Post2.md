@@ -34,4 +34,4 @@ Morbi ut aliquet nulla. In vehicula erat maximus, suscipit augue sit amet, tinci
 
 {% endcapture %}
 
-{% include post2.html%}
+{% include post2.html %}
