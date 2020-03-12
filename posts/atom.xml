@@ -5,8 +5,8 @@ layout: default
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Hank Quinlan's Blog</title>
-	<link href="http://hankquinlan.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://hankquinlan.github.io/blog"/>
+	<link href="http://hankquinlan.github.io/posts/atom.xml" rel="self"/>
+	<link href="http://hankquinlan.github.io/posts"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://hankquinlan.github.io/blog</id>
 	<author>
