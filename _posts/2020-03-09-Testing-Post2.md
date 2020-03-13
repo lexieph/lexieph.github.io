@@ -6,11 +6,11 @@ date: 2020-03-11
 {% capture toc %}
 
 <nav>
-	<button href="#par1">PART 1</button>
+	<a href="#par1">PART 1</a>
 	<a href="#par2">PART 2</a>
 	<a href="#par3">PART 3</a>
 	<a href="#par4">PART 4</a>
-	<button href="#par5">PART 5</button>
+	<a href="#par5">PART 5</a>
 </nav>
 
 {% endcapture %}
