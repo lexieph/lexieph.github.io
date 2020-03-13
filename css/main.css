@@ -60,7 +60,8 @@ body {
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: #4E4E50;
+    background-color: #2C3531;
+    color: #D1E8E2;
     opacity: 0.5;
     top: 0;
     position: fixed;
@@ -90,11 +91,14 @@ body {
 
 .post_toc {
     width: 12.5rem;
+    background-color: #116466;
+    color: #D1E8E2;
 
 }
 
 .post_content {
     flex: 1;
+    color: #2C3531;
 }
 
 nav ul, footer ul {
