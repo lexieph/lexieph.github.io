@@ -52,6 +52,9 @@ body {
     overflow: hidden;
 }
 
+
+/* CSS related to default.html */
+
 .container{
     margin-top: 1rem;
 }
@@ -80,6 +83,20 @@ body {
     will-change: overflow;
 }
 
+/* CSS related to the posts index */
+
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+ 
+.card {
+    flex: 0 1 24%;
+}
+
+/* CSS related to individual posts */
+
 .post_toc,
 .post_content {
     overflow: auto;
@@ -99,6 +116,8 @@ body {
     flex: 1;
     color: #2C3531;
 }
+
+/* ETC. */
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
