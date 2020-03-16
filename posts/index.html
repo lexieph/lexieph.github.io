@@ -1,24 +1,30 @@
 ---
-layout: default2
+layout: default
 title: LEX i.e. Posts
 ---
-<section class="cards">
+<div class ="wrapper">
 
-	{% for post in site.posts %}
-		<article class="card">
-			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		</article>
-	{% endfor %}
+	<section class="post_toc">
+		<p> search bar </p>
+	</section>
 
-</section>
+	<section class="cards">
 
-	<!--<h1>Posts</h1>
+		{% for post in site.posts %}
+			<article class="card">
 
-	<ul class="posts">
+				<a href="{{ post.url }}" title="{{ post.title }}">
 
-	  {% for post in site.posts %}
+					{{ post.excerpt_image }}
 
+					<div class="card-content">
+						<h3>{{ post.title }}</h3>
+						<p>{{ post.excerpt }}</p>
+					</div>
 
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>-->
+				</a>
+			</article>
+		{% endfor %}
+
+	</section>
+</div>

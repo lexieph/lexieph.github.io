@@ -1,10 +1,9 @@
 ---
-layout: default2
+layout: default
 title: Testing Post 2
 date: 2020-03-11
 ---
 {% capture toc %}
-
 <nav>
 	<a href="#par1">PART 1</a>
 	<a href="#par2">PART 2</a>
@@ -12,12 +11,10 @@ date: 2020-03-11
 	<a href="#par4">PART 4</a>
 	<a href="#par5">PART 5</a>
 </nav>
-
 {% endcapture %}
 
 
 {% capture actual_content %}
-
 <p id="par1">
 Nulla facilisi. Maecenas non ultrices sapien. Vivamus interdum mi id urna tempus, nec mattis ligula consequat. Maecenas commodo tellus quis aliquam placerat. Donec molestie bibendum dolor, at lobortis neque placerat at. Nulla quis consectetur neque. Aenean tellus est, imperdiet ut condimentum vel, eleifend vitae mauris. Nulla vitae vehicula tellus, eget egestas ante. Vestibulum gravida neque eget lacus fringilla consectetur. Cras blandit quis urna quis imperdiet. Vivamus ipsum odio, hendrerit sit amet elit ut, vulputate viverra urna. Praesent vulputate nibh id iaculis rutrum. Duis sed lacinia nisi. Nam elit neque, auctor quis pharetra aliquet, pretium ac nibh.
 </p>
@@ -45,7 +42,6 @@ Nunc ipsum dui, aliquam non arcu nec, convallis luctus odio. Pellentesque habita
 <p id="par5">
 Morbi ut aliquet nulla. In vehicula erat maximus, suscipit augue sit amet, tincidunt turpis. In euismod sollicitudin porttitor. Praesent volutpat quis est vitae placerat. Phasellus posuere fermentum nulla, sit amet finibus nibh elementum sit amet. Donec vel facilisis massa. Aenean efficitur urna vitae nisi pellentesque, nec fermentum quam dictum. Etiam eu commodo lorem. Praesent quis lectus vitae mi ultrices bibendum convallis a eros. Integer viverra lorem eu orci tempor faucibus. Nunc fermentum mi sit amet porttitor dictum. Proin interdum eros quis ultricies faucibus. Morbi consectetur felis vel euismod luctus. Integer varius ipsum quis ornare tempus. Vivamus quis gravida lacus. Cras suscipit suscipit accumsan.
 </p>
-
 {% endcapture %}
 
-{% include post2.html %}
+{% include postlayout.html %}

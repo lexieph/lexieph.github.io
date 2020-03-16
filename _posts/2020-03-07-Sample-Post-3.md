@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Sample Post 1
 date: 2020-03-09
 ---

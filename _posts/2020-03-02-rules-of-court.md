@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: default
 title: "Rules of Court"
 date: 2020-03-02
 ---
-![]({{"/assets/An Overview of Property Regimes in Marriages Small.jpg"|absolute_url}})
+![]({{"/assets/images/An Overview of Property Regimes in Marriages Small.jpg"|absolute_url}})
 
 You can download the PDF [here]({{ site.url }}/assets/pdf/02_D_02-DOLE DO 107-10.pdf).
 
@@ -1683,5 +1683,7 @@ SEC. 10. Court may release respondent.— The court which issued the order impri
 SEC. 11. Review of judgment or final order; bond for stay.— The judgment or final order of a court in a case of indirect contempt may be, appealed to the proper court as in criminal cases. But execution of the judgment or final order shall not be suspended until a bond is filed by the person adjudged in contempt, in an amount fixed by the court from which the appeal is taken, conditioned that if the appeal be decided against him he will abide by and perform the judgment or final order. (10a)
 
 SEC. 12. Contempt against quasi-judicial entities.— Unless otherwise provided by law, this Rule shall apply to contempt committed against persons, entities, bodies or agencies exercising quasi-judicial functions, or shall have suppletory effect to such rules as they may have adopted pursuant to authority granted to them by law to punish for contempt. The Regional Trial Court of the place wherein the contempt has been committed shall have jurisdiction over such charges as may be filed therefore. (n)
+
+{% include postlayout.html %}
 
 
