@@ -4,8 +4,10 @@ layout: default
 title: Testing Grid Card Layout
 date: 2020-03-16
 
+categories: ['test', 'rules', 'remedial']
+
 excerpt: A post combining the new and amended rules of court.
-excerpt_image: <img src="/assets/images/An Overview of Property Regimes in Marriages Small.jpg">
+featured_img: /assets/images/An Overview of Property Regimes in Marriages Small.jpg
 ---
 
 {% capture toc %}

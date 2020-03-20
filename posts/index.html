@@ -5,17 +5,26 @@ title: LEX i.e. Posts
 <div class ="wrapper">
 
 	<section class="post_toc">
-		<p> search bar </p>
+
+		<form action="/posts/index.html" method="GET">
+        <input type="search" name="q" />
+        <br>
+        <button type="submit">Search</button>
+		</form>
+		<a href="/posts/index.html"><button>Reset</button></a>
+
 	</section>
 
-	<section class="cards">
+	<!-- section where results will be placed AND script for making the index content. They must go together in the same section otherwise lunr won't work. -->
+	<section id="cards">
 
-		{% for post in site.posts %}
+	<!-- default value of search-results is a list of all posts -->
+	{% for post in site.posts %}
 			<article class="card">
 
 				<a href="{{ post.url }}" title="{{ post.title }}">
 
-					{{ post.excerpt_image }}
+					<img src="{{ post.featured_img | prepend: site.baseurl }}">
 
 					<div class="card-content">
 						<h3>{{ post.title }}</h3>
@@ -24,7 +33,27 @@ title: LEX i.e. Posts
 
 				</a>
 			</article>
-		{% endfor %}
+	{% endfor %}
+
+	<!-- script that creates the searchable JSON -->
+	<script>
+		window.pages = {
+			{% for page in site.posts %}
+			"{{ page.url | slugify }}": {
+			"title": "{{ page.title | xml_escape }}",
+			"content": {{ page.content | markdownify | strip_newlines | strip_html | jsonify }},
+			"excerpt": {{ page.excerpt | markdownify | strip_newlines | strip_html | jsonify }},
+			"featured_img": "{{ page.featured_img | prepend: site.baseurl }}",
+			"url": "{{ site.url | append: page.url | xml_escape }}",
+			"path": "{{ page.url | xml_escape }}"
+			}{% unless forloop.last %},{% endunless %}
+			{% endfor %}
+		};
+	</script>
+
+	<script src="/js/lunr.min.js"></script>
+	<script src="/js/search.js"></script>	
+	
 
 	</section>
 </div>

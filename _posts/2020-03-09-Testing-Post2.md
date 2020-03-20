@@ -2,6 +2,8 @@
 layout: default
 title: Testing Post 2
 date: 2020-03-11
+
+categories: ['test', 'latin']
 ---
 {% capture toc %}
 <nav>
