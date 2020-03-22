@@ -45,8 +45,9 @@ resultsString = "";
 resultPages.forEach(function (r) {
     resultsString += "<article class=\"card\">";
     resultsString +=  "<img src=\"" + r.featured_img + "\">";
-    resultsString +=  "<a href='" + r.url + "?q=" + searchTerm + "'><h3>" + r.title + "</h3></a>";
-    resultsString +=  "<p>" + r.excerpt.substring(0, 200) + "</p>";
+    resultsString +=  "<section class=\"card-content\">"
+    resultsString +=  "<a href='" + r.url + "?q=" + searchTerm + "'><h2>" + r.title + "</h2><br>";
+    resultsString +=  "<p>" + r.excerpt.substring(0, 200) + "</p></section></a>";
     resultsString += "</article>"
 });
 //setting the content of the HTML container

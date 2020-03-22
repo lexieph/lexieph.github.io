@@ -64,21 +64,13 @@ body {
     will-change: overflow;
 }
 
-.sidebar {
-    display: flex;
-    overflow: hidden;
-    height: 100vh;
-    position: relative;
-    width: 100%;
-    backface-visibility: hidden;
-    will-change: overflow;
-    flex-direction: column;
-}
-
 
 /* CSS related to default.html */
 
 .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
@@ -86,13 +78,36 @@ body {
     color: #DEC79B;
     top: 0;
     position: fixed;
-    height: 2%;
+    height: 5%;
     z-index: 1;
     width: 100%;
 }
 
+#logo{
+    font-size: 2em;
+    padding: 0 2em 0 2em;
+    color: #DEC79B;
+}
+
+#logo:hover {
+    text-decoration: none;
+}
+
+nav ul, footer ul {
+    flex-grow: 2;
+    font-family: 'Lato', Sans-Serif;
+    font-size: 1.5em;
+    list-style: none;
+    font-weight: bold;
+    height: auto;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 .container {
-    margin-top: 1em;
+    margin-top: 2em;
     position: fixed;
 }
 
@@ -127,12 +142,6 @@ body {
     font-size: .75em;
 }
 
-#title {
-}
-
-#subtitle {  
-}
-
 /* CSS related to the cards in the posts index */
 
 #cards {
@@ -141,6 +150,7 @@ body {
    flex-wrap: wrap;
    overflow: auto;
    background-color: #F7F7F7;
+   width: 100%;
 }
  
 .card {
@@ -178,6 +188,23 @@ img {
     height: auto;
 }
 
+#searchbar {
+    width: 100%;
+}
+
+button {
+    background-color: #18181E;
+    color: white;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Lato', Sans-Serif;
+}
+
+button:hover {
+    background-color: #222238;
+    text-decoration: underline;
+}
+
 /* CSS related to individual posts */
 
 .post_toc,
@@ -192,29 +219,49 @@ img {
     width: 12.5rem;
     background-color: #18181E;
     color: #D1E8E2;
+    padding-top: 3rem;
+    text-align: center;
+}
 
+.post_toc ul{
+    font-family: 'Lato', Sans-Serif;
+}
+
+.post_toc ul li{
+    margin: 0 0 .5rem 0;
+}
+
+.post_toc h2{
+    font-family: 'Arvo', Serif;
+    color: #DEC79B;
 }
 
 .post_content {
     flex: 1;
-    color: #2C3531;;
+    color: #2C3531;
+    padding: 1em;
 }
+
+.banner {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.post_content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+}
+
+.post_content p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /* ETC. */
-
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
 a {
     text-decoration: none;
-    color: #DEC79B;
+    color: white;
 }
 a:hover {
     text-decoration: underline;

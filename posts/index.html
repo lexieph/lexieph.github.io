@@ -5,14 +5,14 @@ title: LEX i.e. Posts
 <div class ="wrapper">
 
 	<section class="post_toc">
-
+		<p>
 		<form action="/posts/index.html" method="GET">
-        <input type="search" name="q" />
-        <br>
-        <button type="submit">Search</button>
+	        <input id="searchbar" type="search" name="q" />
+	        <br><br>
+	        <button type="submit">Search</button>
 		</form>
-		<a href="/posts/index.html"><button>Reset</button></a>
-
+			<a href="/posts/index.html"><button>Reset</button></a>
+		</p>
 	</section>
 
 	<!-- section where results will be placed AND script for making the index content. They must go together in the same section otherwise lunr won't work. -->
@@ -26,11 +26,11 @@ title: LEX i.e. Posts
 
 					<img src="{{ post.featured_img | prepend: site.baseurl }}">
 
-					<div class="card-content">
+					<section class="card-content">
 						<h2>{{ post.title }}</h2>
 						<br>
 						<p>{{ post.excerpt }}</p>
-					</div>
+					</section>
 
 				</a>
 			</article>
