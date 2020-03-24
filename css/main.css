@@ -94,7 +94,6 @@ body {
 }
 
 nav ul, footer ul {
-    flex-grow: 2;
     font-family: 'Lato', Sans-Serif;
     font-size: 1.5em;
     list-style: none;
@@ -109,6 +108,7 @@ nav ul li, footer ul li {
 .container {
     margin-top: 2em;
     position: fixed;
+    width: 100%;
 }
 
 /* CSS related to homepage */
@@ -145,12 +145,11 @@ nav ul li, footer ul li {
 /* CSS related to the cards in the posts index */
 
 #cards {
-   flex: 1;
    display: flex;
+   flex: 1;
    flex-wrap: wrap;
    overflow: auto;
    background-color: #F7F7F7;
-   width: 100%;
 }
  
 .card {
@@ -236,25 +235,61 @@ button:hover {
     color: #DEC79B;
 }
 
-.post_content {
+.post_content{
     flex: 1;
     color: #2C3531;
     padding: 1em;
 }
 
-.banner {
+.banner{
     height: auto;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    max-height: 300px;
 }
 
 .post_content h1{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.post_content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.post_content h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+.post_content h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
     font-size: 2em;
 }
 
-.post_content p {
+.post_content p{
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+pre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    padding: 0 1em 0 1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
 }
 
 
