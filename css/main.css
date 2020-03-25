@@ -210,7 +210,6 @@ button:hover {
 .post_content {
     overflow: auto;
     height: auto;
-    padding: .5rem;
     overscroll-behavior: none;
 }
 
@@ -218,7 +217,7 @@ button:hover {
     width: 12.5rem;
     background-color: #18181E;
     color: #D1E8E2;
-    padding-top: 3rem;
+    padding: 2rem 0 3rem 0;
     text-align: center;
 }
 
@@ -227,7 +226,7 @@ button:hover {
 }
 
 .post_toc ul li{
-    margin: 0 0 .5rem 0;
+    padding: 0 0 1rem 0;
 }
 
 .post_toc h2{
@@ -238,7 +237,7 @@ button:hover {
 .post_content{
     flex: 1;
     color: #2C3531;
-    padding: 1em;
+    padding: 1rem 1rem 3rem 1rem;
 }
 
 .banner{
