@@ -3,19 +3,28 @@
 <head>
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<script type="text/javascript" src="/js/main.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Arvo|Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Roboto:ital,wght@1,100&&family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-	
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,500&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@1,100&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-	<div class="navbar">
-		<a id="logo" href="/">LEX i.e.</a>
-		<nav>
-			<ul>
-	    		<li><a href="/posts">Posts</a></li>
-			</ul>
-		</nav>
+	<div class="header">
+		<div class="left">
+			<span id="togglebtn" onclick="openNav()">☰ Menu</span>
+		</div>
+
+		<div class="center">
+			<a id="logo" href="/">LEX i.e.</a>
+		</div>
+
+		<div class="right">
+			<nav>
+				<ul>
+			    	<li><a href="/posts">Posts</a></li>
+				</ul>
+			</nav>
+		</div>
 	</div>
 
 	<div class="container">
