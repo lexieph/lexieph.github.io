@@ -327,7 +327,14 @@ pre {
     .card p {
         font-size: 3em;
     }
-    .post_content h1{
+
+    .post_content {
+        line-height: 5em;
+        padding: 0 1em 20em 1em;
+    }
+
+    .post_content h1 {
+        font-size: 6em;
     }
 
     .post_content h2{
@@ -367,24 +374,41 @@ em {
     font-style: italic;
 }
 
-i {
-
-    font-style: italic;
+.externalLink {
+    color: #C59434;
 }
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+i {
+
+    font-style: italic;
+}
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     text-align: justify;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+
+.pictureInPost {
+    width: auto;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
 }
 
 ul.posts { 
